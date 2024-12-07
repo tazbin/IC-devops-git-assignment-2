@@ -91,3 +91,14 @@ The Linear commit log is:
 c8d7875 Add file file-1.txt
 98c55ac Intial commit
 ```
+
+Deleting `feature-1` & `feature-2` branch from local & remote repository
+```
+git branch -d feature-1
+
+git push origin --delete feature-1
+
+git branch -d feature-2
+
+git push origin --delete feature-2
+```
